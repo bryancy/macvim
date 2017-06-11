@@ -14,4 +14,5 @@ vim settings step
     `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 - config vim
+
     copy `.vimrc` and exec `:PluginInstall`
