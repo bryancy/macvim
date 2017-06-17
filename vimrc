@@ -112,7 +112,7 @@ autocmd! bufwritepost .vimrc source %
 set autoread
 
 " yy直接复制到系统剪切板（For macvim）
-" set clipboard=unnamed
+set clipboard=unnamed
 
 " 高亮搜索命中的文本
 set hlsearch
@@ -438,7 +438,7 @@ func SetTitle()
 endfunc
 autocmd BufNewFile * normal G
 
-" In line copy and paste to system clipboard
+" In line copy andGpaste to system clipboard
 vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
 nmap <C-v> :call setreg("\"",system("pbpaste"))<CR>p
 vmap "+y :w !pbcopy<CR><CR>
