@@ -16,6 +16,13 @@ set nowrapscan
 " 不检测文件类型
 filetype off
 
+" 代码折叠 zc zC zo zO zM zR za
+" 基于缩进或语法进行代码折叠
+" set foldmethod=indent
+set foldmethod=syntax
+" 启动 vim 时关闭折叠代码
+set nofoldenable
+
 " set the runtime path to include Vundle and initialize
 set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
