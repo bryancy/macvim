@@ -19,3 +19,9 @@ vim settings step
 
     copy `.vimrc` and exec `:PluginInstall`
 
+- jedi-vim bugfix [issues721](https://github.com/davidhalter/jedi-vim/issues/721)
+
+    ```
+    cd ~/.vim/bundle/jedi-vim
+    git checkout e2d79c6434f940a21c75bb86d84b9a4d88f86209
+    ```

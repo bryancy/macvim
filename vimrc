@@ -52,7 +52,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'Yggdroot/indentLine'
 Plugin 'nvie/vim-flake8'
 if has('python')
-    Plugin 'davidhalter/jedi-vim'
+    Plugin 'davidhalter/jedi-vim'  " fixed cd ~/.vim/bundle/jedi-vim and git checkout e2d79c6434f940a21c75bb86d84b9a4d88f86209
     Plugin 'axiaoxin/vim-json-line-format'
     Plugin 'SirVer/ultisnips'
 endif
